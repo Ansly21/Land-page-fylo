@@ -33,9 +33,12 @@ button {
 }
 
 header {
-    padding: 1rem 0.5rem;
+    padding: 0.8rem 0;
 }
 
+hr {
+    margin-top: 0;
+}
 nav {
     display: flex;
     align-items: center;
@@ -265,14 +268,13 @@ footer .icon{
 
 }
 
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 @media(min-width: 500px) {
     nav {
         flex-direction: row;
         justify-content: space-between;
+    }
+    header {
+       padding: 0.3rem 0;
     }
 }
 
@@ -280,8 +282,6 @@ footer .icon{
     html {
         font-size: 150%;
     }
-
-   
 
     nav {
         justify-content: space-between;
