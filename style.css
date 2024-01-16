@@ -10,6 +10,10 @@ body {
 
 }
 
+input {
+    font-size: 0.8rem;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -25,6 +29,7 @@ footer a {
 }
 button {
     cursor: pointer;
+    font-weight: bold;
 }
 
 .container {
@@ -185,6 +190,10 @@ button.get-started-top {
 .early-btn, .section-three input {
     width: 80%;
     margin-bottom: 1rem;
+}
+
+.early-btn {
+    font-size: 0.7rem;
 }
 
 .early-access-email {
