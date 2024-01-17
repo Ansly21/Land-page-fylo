@@ -27,9 +27,14 @@ a:hover {
 footer a {
     color: white;
 }
+
 button {
     cursor: pointer;
     font-weight: bold;
+}
+
+button:hover {
+    background-color: hsl(224, 90%, 50%);;
 }
 
 .container {
@@ -366,6 +371,7 @@ footer .icon{
 
     .section-three .button-bg {
         width: 35%;
+        min-width: 250px;
     }
 
     .footer-logo {
