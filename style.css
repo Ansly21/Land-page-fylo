@@ -332,6 +332,9 @@ footer .icon{
 
     }
 
+    .email-input {
+        margin: 0;
+    }
     .left, .right {
         width: 45%;
     }
