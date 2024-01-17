@@ -54,6 +54,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    margin-top: 1rem;
 }
 
 .nav-ul {
@@ -66,7 +67,15 @@ nav {
 
 header li {
     text-align: center;
-    margin-left: 1rem;
+}
+
+.mid-list {
+    margin: 0 3rem;
+}
+
+
+header li a {
+    color: hsl(238, 22%, 44%);
 }
 
 main img {
